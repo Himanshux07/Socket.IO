@@ -717,26 +717,6 @@ io.on('connection', (socket) => {
 });
 ```
 
----
-
-## Notes-First Project Structure
-
-Keep this repository as reference notes/documentation. If you build a chat app, place it in a separate folder.
-
-```text
-socketio-notes/
-|
-|-- README.md                 # Main Socket.IO notes (this file)
-|-- notes/
-|   |-- basics.md             # Optional: quick revision notes
-|   |-- methods.md            # Optional: emit/on/rooms/namespace notes
-|   '-- production.md         # Optional: scaling and deployment notes
-|
-'-- examples/
-    '-- chat-app/             # Put any full chat application code here
-```
-
----
 
 ## Scaling & Production
 
@@ -1062,21 +1042,6 @@ setInterval(() => {
 | `socket.on()` | Both | - | `socket.on('event', callback)` |
 
 ---
-
-## Project Template Structure
-
-```text
-socketio-notes/
-|
-|-- README.md                 # Main Socket.IO guide
-|-- notes/
-|   |-- basics.md             # Concepts and architecture
-|   |-- methods.md            # Method cheat sheets and examples
-|   '-- troubleshooting.md    # Common errors and fixes
-|
-'-- examples/
-  '-- chat-app/             # Optional separate app implementation
-```
 
 ---
 
